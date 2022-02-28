@@ -1,35 +1,5 @@
-# HealthBot
+# MedPro
 
-This is a prototype of personal health assistant build from Microsoft Azure Health Bot services.
+A website that allows users to communicate with the Microsoft Healthcare Bot service regarding Heath queries through a Webchat interface, helps people to find health services near them, displays new/total cases and deaths globally as well as per country using Microsoft azure web app services.
 
-Azure Health bot services make use of Artificial Intelligence and Language understanding to help medical community and patients especially at tough times like these.
-
-This Azure health Bot has builtin triage symptom checker provided from microsoft partner companies. It uses this database to check symptoms of a customer and suggest them further diagnosis.
-
-To effecitively communicate with customer it uses regular expressions and Language understanding and intelligent services(LUIS) which is also another azure service.
-
-This bot can help you with identifying your illness through symptoms, suggest you appropriate doctors for diagnosis.
-
-The bot interface is integrated into a demo hospital website for demonstration and the website is also hosted on Microsoft azure. 
-I made use of Microsoft Azure's static web app serivice to deploy and host this demo website.
-
-This repository has files of demo website. And the file "index.html" has webchat rendered into it.
-The webchat is accessed by a directline token which you can see in the "index.html" file.
-
-For demo:
-
-[Click here for a quick demo](https://gray-meadow-05b3f7410.azurestaticapps.net)
-
-This is another link for demo website of a hospital in which the health bot is embedded into: https://calm-sand-077d2ea10.1.azurestaticapps.net
-
-- After clicking the above link you can see a demo hospital website hosted on azure.
-- Click "chat with bot" to chat with the health bot.
-- Try something like "i have fever" and play around with the bot.
-- If you are confused type in "help" to know keywords to chat with bot.
-
-This bot can be further improved to
-- help schedule appointments with possible services
--  help you find nearest doctors and other clinics near your location.
-
-Thank you for visiting and Hope you like this demo.😃😃😃
-
+The core idea of this project is to solve FAQs of the people regarding the Covid-19 and help them to get solved their common question and queries related to Covid-19 with suggestive methods using Microsoft Healthcare Bot service. In this unforeseen Corona pandemic situation which raised in 2019, there are many misconceptions and confusions about the virus among the people. There are many FAQ sections on the web, but people find it difficult to get there and read, also they find it extremely difficult to log on to sites and check for the required information. Various social media platforms are misguiding people with inconsistent and divergent information. Thus, this project provides a very simplified and user-friendly bot service which provide answers through webchat interface. Also, this website helps people to find covid relief services near them by showing all the latest Twitter Tweets by searching the query of their city, requirement types like plasma, beds. Third functionality of this project is Covid19 Live Cases Tracker which tracks the real-time live data of all COVID-19 affected peoples globally as well as per country.
